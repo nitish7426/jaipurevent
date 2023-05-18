@@ -11,11 +11,16 @@ import { motion, AnimatePresence } from "framer-motion";
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  if (isOpen) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-  }
+  useEffect(() => {
+    let overflow = document.body.style.overflow;
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    overflow = isOpen ? "hidden" : "auto";
+  }, [isOpen]);
+
   return (
     <>
       <Button
