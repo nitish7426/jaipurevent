@@ -1,7 +1,11 @@
 import React from "react";
 
 const Gallary = () => {
-  return <div>Gallary</div>;
+  return (
+    <section className="container py-6">
+      <h1 className="heading">Gallary</h1>
+    </section>
+  );
 };
 
 export default Gallary;

@@ -11,16 +11,6 @@ import { motion, AnimatePresence } from "framer-motion";
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    let overflow = document.body.style.overflow;
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-    overflow = isOpen ? "hidden" : "auto";
-  }, [isOpen]);
-
   return (
     <>
       <Button
@@ -54,7 +44,7 @@ const Hamburger = () => {
               </div>
               <ul className="gap-4 flex flex-col">
                 {navLinks.map(({ id, text, href }) => (
-                  <li key={id}>
+                  <li key={id} onClick={() => setIsOpen(false)}>
                     <NavLink className="text-lg" href={href}>
                       {/* <Link href={href}>{text}</Link> */}
                       {text}

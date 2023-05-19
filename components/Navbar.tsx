@@ -7,7 +7,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <nav className="h-16 w-full flex items-center justify-between container">
+    <nav className="h-16 w-full flex items-center justify-between container sticky top-0 bg-white/90 backdrop-blur-sm">
       <Logo />
       {/* desktop navigation */}
       <ul className="space-x-6 lg:space-x-8 hidden md:flex">

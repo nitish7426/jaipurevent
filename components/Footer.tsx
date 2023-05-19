@@ -1,7 +1,11 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer>
+      <p>&copy; 2023 Jaipur Event. All rights reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;
