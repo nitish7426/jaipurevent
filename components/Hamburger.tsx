@@ -13,13 +13,9 @@ const Hamburger = () => {
 
   return (
     <>
-      <Button
-        className="z-20 h-fit p-2 rounded-full md:hidden"
-        variant="ghost"
-        onClick={() => setIsOpen(!isOpen)}
-      >
+      <button className="z-20 md:hidden" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <RxCross2 size={25} /> : <HiBars3BottomRight size={25} />}
-      </Button>
+      </button>
 
       <AnimatePresence>
         {isOpen && (

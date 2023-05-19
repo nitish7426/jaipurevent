@@ -9,3 +9,7 @@
 .heading {
   @apply text-5xl md:text-6xl text-pink-600 text-center md:text-start font-cursive;
 }
+
+.paragraph {
+  @apply text-gray-600 md:text-lg;
+}
