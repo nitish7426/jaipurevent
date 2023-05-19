@@ -16,7 +16,7 @@ const Features = () => {
             )}
             key={id}
           >
-            <article className="text-center md:text-start space-y-4 p-5 flex-1 max-w-lg ">
+            <article className="text-center md:text-start space-y-4 flex-1 max-w-lg ">
               <h3 className="text-2xl md:text-3xl font-bold text-pink-600">
                 {heading}
               </h3>
@@ -25,7 +25,7 @@ const Features = () => {
 
             {/* feature image */}
             <Image
-              className="aspect-square rounded-xl object-cover flex-1 max-w-md"
+              className="aspect-square rounded-xl object-cover flex-1 max-w-md w-full"
               src={image}
               height={400}
               width={400}

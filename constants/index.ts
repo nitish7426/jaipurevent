@@ -35,6 +35,24 @@ export const navLinks = [
 // ANNIVERSARY
 // #BIRTHDAY ETC .
 
+export const stats = [
+  {
+    id: 1,
+    count: "2.8k+",
+    text: "Successful Events",
+  },
+  {
+    id: 2,
+    count: "2,8k+",
+    text: "Happy Clients",
+  },
+  {
+    id: 3,
+    count: "2.5+",
+    text: "Years of Experience",
+  },
+];
+
 export const features = [
   {
     id: 1,
