@@ -5,7 +5,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row containter md:items-center py-8 md:py-10 lg:py-12 gap-6 md:gap-8">
+    <section className="flex flex-col-reverse md:flex-row md:items-center py-8 md:py-10 lg:py-12 gap-6 md:gap-8">
       <div className="flex-1 text-center md:text-start space-y-6">
         <h1 className="text-4xl md:text-5xl font-black">
           Float on Cloud Nine with Our Spectacular Balloon Creations!

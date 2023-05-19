@@ -27,7 +27,7 @@ const Hamburger = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="h-screen w-full fixed bg-black/10 backdrop-blur-sm top-0 left-0 flex justify-end md:hidden"
+            className="h-screen w-full fixed bg-black/25 top-0 left-0 flex justify-end md:hidden overflow-hidden"
             onClick={() => setIsOpen(false)}
           >
             {/* sidebar */}

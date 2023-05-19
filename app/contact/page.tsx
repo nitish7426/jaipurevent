@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "@/lib/utils";
 import ContactForm from "@/components/ContactForm";
-import { Button } from "@/components/ui/Button";
+import { Button, buttonVariants } from "@/components/ui/Button";
 import { IoCallOutline } from "react-icons/io5";
 import { MdWhatsapp } from "react-icons/md";
 import Image from "next/image";
@@ -23,15 +23,27 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-4">
-            <Button variant="outline" className="text-base gap-4 w-full">
+            <a
+              className={buttonVariants({
+                variant: "outline",
+                className: "text-base gap-4 w-full",
+              })}
+              href="tel:+918107496980"
+            >
               <IoCallOutline size={20} />
               Call Us
-            </Button>
-
-            <Button className="flex gap-4 w-full" variant="outline">
+            </a>
+            <a
+              className={buttonVariants({
+                variant: "outline",
+                className: "text-base gap-4 w-full",
+              })}
+              href="https://api.whatsapp.com/send?phone=+918107496980"
+              target="_blank"
+            >
               <MdWhatsapp size={20} />
               Whatsapp Us
-            </Button>
+            </a>
           </div>
         </div>
 
