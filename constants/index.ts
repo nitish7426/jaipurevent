@@ -5,6 +5,24 @@ import { FiMapPin } from "react-icons/fi";
 import { BsWhatsapp, BsTelephone } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
 
+export const keywords = [
+  "Balloon decoration Jaipur",
+  "Event organizer in Jaipur",
+  "Balloon arch Jaipur",
+  "Balloon centerpieces Jaipur",
+  "Balloon sculptures Jaipur",
+  "Balloon decoration services Jaipur",
+  "Event planning Jaipur",
+  "Party decorations Jaipur",
+  "Corporate event organizer Jaipur",
+  "Wedding decoration Jaipur",
+  "Theme-based decorations Jaipur",
+  "Balloon backdrop Jaipur",
+  "Balloon installation services Jaipur",
+  "Balloon artist Jaipur",
+  "Balloon decoration packages Jaipur",
+];
+
 export const navLinks = [
   {
     id: 1,
@@ -185,8 +203,33 @@ export const footerDetails = [
 
 export const services = [
   {
+    id: 1,
+    heading: "Birthday Decoration",
+    image: "/image2.jpeg",
+  },
+  {
     id: 2,
-    heading: "",
-    image: "",
+    heading: "Annivarsary Decoration",
+    image: "/image1.jpeg",
+  },
+  {
+    id: 3,
+    heading: "Carboot Decoration Surprise",
+    image: "/image10.jpeg",
+  },
+  {
+    id: 4,
+    heading: "Baby Shower Decoration",
+    image: "/image7.jpeg",
+  },
+  {
+    id: 5,
+    heading: "Wedding Decoration",
+    image: "/image13.jpeg",
+  },
+  {
+    id: 6,
+    heading: "Home Decoration",
+    image: "/image15.jpeg",
   },
 ];

@@ -5,6 +5,11 @@ import { Button, buttonVariants } from "@/components/ui/Button";
 import { IoCallOutline } from "react-icons/io5";
 import { MdWhatsapp } from "react-icons/md";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Jaipur Event | Contact Us",
+};
 
 const Contact = () => {
   return (
