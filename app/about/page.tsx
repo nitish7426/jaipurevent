@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="heading font-cursive">About Us</h1>
 
       <div className="space-y-4 paragraph">
-        <p className="text-2xl text-black md:text-3xl">
+        <p className="text-2xl font-semibold text-gray-800 md:text-3xl">
           Welcome to Our Balloon Decoration Business!
         </p>
         <p>

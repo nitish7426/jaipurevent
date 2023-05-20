@@ -3,6 +3,7 @@ import "./globals.css";
 import { Figtree, Inter, Sacramento } from "next/font/google";
 import ToasterContext from "@/context/ToasterContext";
 import cn from "@/lib/utils";
+import Footer from "@/components/Footer";
 
 const figtree = Figtree({ subsets: ["latin"] });
 const sacramento = Sacramento({
@@ -26,6 +27,7 @@ export default function RootLayout({
         <ToasterContext />
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

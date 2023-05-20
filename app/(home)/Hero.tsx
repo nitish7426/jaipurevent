@@ -23,9 +23,9 @@ const Hero = () => {
             className: "text-base mr-4 rounded-xl font-semibold",
             size: "lg",
           })}
-          href="/"
+          href="/contact"
         >
-          Get Started
+          Contact Us
         </Link>
         <Link
           className={buttonVariants({
@@ -33,9 +33,9 @@ const Hero = () => {
             className: "text-base rounded-xl font-semibold",
             size: "lg",
           })}
-          href="/"
+          href="/services"
         >
-          Contact Us
+          Our Services
         </Link>
       </div>
       <Image

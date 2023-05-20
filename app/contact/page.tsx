@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section className="container py-8 space-y-6">
+    <section className="container py-12 md:py-16 space-y-6">
       <h1 className="heading">Contact Us</h1>
 
       <div className="md:flex gap-8">
@@ -26,7 +26,7 @@ const Contact = () => {
             <a
               className={buttonVariants({
                 variant: "outline",
-                className: "text-base gap-4 w-full",
+                className: "text-base gap-2 w-full",
               })}
               href="tel:+918107496980"
             >
@@ -36,7 +36,7 @@ const Contact = () => {
             <a
               className={buttonVariants({
                 variant: "outline",
-                className: "text-base gap-4 w-full",
+                className: "text-base gap-2 w-full",
               })}
               href="https://api.whatsapp.com/send?phone=+918107496980"
               target="_blank"
