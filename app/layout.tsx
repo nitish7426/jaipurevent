@@ -15,6 +15,14 @@ const sacramento = Sacramento({
 });
 export const metadata: Metadata = {
   title: "Jaipur Event",
+  icons: {
+    icon: {
+      type: "image/png",
+      url: "/icon.png",
+      sizes: "any",
+      rel: "icon",
+    },
+  },
   description:
     "Transform your event with mesmerizing balloon decorations that add a touch of magic and elegance. Our talented team specializes in vibrant balloon arches, whimsical centerpieces, and creative sculptures. Contact us now to elevate your celebration and create unforgettable memories.",
   keywords: keywords,

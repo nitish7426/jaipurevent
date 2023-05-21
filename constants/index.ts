@@ -73,7 +73,7 @@ export const stats = [
   },
   {
     id: 3,
-    count: "2.5+",
+    count: "7+",
     text: "Years of Experience",
   },
 ];

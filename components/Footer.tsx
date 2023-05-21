@@ -34,7 +34,11 @@ const Footer = () => {
                 <Icon />
                 {heading}
               </p>
-              <a className="block hover:underline" href={href} target="_blank">
+              <a
+                className="block hover:underline text-gray-700"
+                href={href}
+                target="_blank"
+              >
                 {text}
               </a>
             </div>
